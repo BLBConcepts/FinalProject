@@ -1,0 +1,77 @@
+/* Mobile Styles */
+
+
+nav.full{
+   display: none;
+}
+
+nav.mobile {
+   background-color: #330033;
+}
+
+nav ul li{
+   display: inline;
+   list-style-type: none;
+   line-height: 0.25em;
+}
+
+nav ul li a{
+   color: #ffffff;
+   padding: 0.25em;
+   text-decoration: none;
+}
+
+nav ul li a:visited{
+   color: #ffffff;
+}
+
+#logo {
+   display: none;
+}
+
+#title {
+   padding-top: 0.2em;
+}
+
+header {
+
+   background-color: #b8b8b8;
+   font-family: "Papyrus", cursive, sans-serif;
+   font-style: italic;
+   color: #903c39;
+   text-align: center;
+}
+
+#mainlogo {
+   background: rgb(18,15,12) url(images/newhoppy_sm.jpg) center center no-repeat;
+
+   height: 100%;
+   width: 100%;
+}
+
+aside {
+   background-color: lightgray;
+   text-align: center;
+}
+
+#photo1 {
+   height: 100%;
+   width: 100%;
+}
+
+#photo2 {
+   height: 100%;
+   width: 100%;
+}
+
+table {
+   font-size: 0.85em;
+   width: 75%;
+   border: solid 2px navy;
+}
+
+th, td {
+   border: solid 1px #903c39;
+   text-align: center;
+   padding: 0.25em;
+}
